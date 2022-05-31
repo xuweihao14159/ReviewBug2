@@ -1,0 +1,15 @@
+2022-05-30 10:50:47.045 17971-18034/com.automattic.simplenote.debug D/Simperium.AsyncAuth: Exception: org.json.JSONException: Value invalid of type java.lang.String cannot be converted to JSONObject | Value invalid of type java.lang.String cannot be converted to JSONObject
+2022-05-30 10:50:47.075 17971-18025/com.automattic.simplenote.debug D/EGL_emulation: eglMakeCurrent: 0xe5561700: ver 2 0 (tinfo 0xc6038f00)
+2022-05-30 10:50:47.096 1974-5423/? E/InputDispatcher: Window handle Window{54c8798 u0 com.automattic.simplenote.debug/com.automattic.simplenote.authentication.SimplenoteCredentialsActivity} has no registered input channel
+2022-05-30 10:50:47.168 17971-17971/com.automattic.simplenote.debug E/Simperium: Invalid username or password
+    com.simperium.client.AuthException: Invalid username or password
+        at com.simperium.android.AsyncAuthClient$1.onCompleted(AsyncAuthClient.java:124)
+        at com.simperium.android.AsyncAuthClient$1.onCompleted(AsyncAuthClient.java:112)
+        at com.koushikdutta.async.http.AsyncHttpClient.invokeWithAffinity(AsyncHttpClient.java:540)
+        at com.koushikdutta.async.http.AsyncHttpClient.access$800(AsyncHttpClient.java:50)
+        at com.koushikdutta.async.http.AsyncHttpClient$7.run(AsyncHttpClient.java:547)
+        at com.koushikdutta.async.AsyncServer.lockAndRunQueue(AsyncServer.java:708)
+        at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:725)
+        at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:626)
+        at com.koushikdutta.async.AsyncServer.access$700(AsyncServer.java:41)
+        at com.koushikdutta.async.AsyncServer$13.run(AsyncServer.java:568)
